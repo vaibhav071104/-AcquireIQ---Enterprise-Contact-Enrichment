@@ -91,13 +91,15 @@ source venv/bin/activate
 
 Windows:
 venv\Scripts\activate
+
+
 3) Install dependencies
 pip install -r requirements.txt
 
 4) Run
 streamlit run ui.py
 
-text
+
 
 Open http://localhost:8501
 
