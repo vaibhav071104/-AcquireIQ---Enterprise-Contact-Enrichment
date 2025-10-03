@@ -1,8 +1,8 @@
-streamlit==1.31.0
-pandas==2.2.1
-plotly==5.18.0
-requests==2.31.0
-pydantic==2.6.0
-email-validator==2.1.0
-dnspython==2.4.2
-python-dotenv==1.0.0
+streamlit
+pandas
+plotly
+requests
+pydantic
+email-validator
+dnspython
+python-dotenv
