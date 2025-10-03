@@ -137,16 +137,17 @@ https://d2dguy2fhewzytzpzihuri.streamlit.app/
 ## 📁 Project Structure
 
 acquireiq/
-├── ui.py # Streamlit dashboard (main app)
-├── scraper.py # Lead generation (sample, domain, bulk, CSV)
-├── enrichment.py # Email verification & quality scoring
-├── validator.py # Local email validation (fallback)
-├── crm_integration.py # CRM export (Salesforce, HubSpot, Pipedrive, Generic)
-├── models.py # Data models (Pydantic)
-├── config.py # Configuration management
-└── requirements.txt # Dependencies
+├── ui.py                 # Streamlit dashboard (main app)
+├── scraper.py            # Lead generation (sample, domain, bulk, CSV)
+├── enrichment.py         # Email verification & quality scoring
+├── validator.py          # Local email validation (fallback)
+├── crm_integration.py    # CRM exports (Salesforce, HubSpot, Pipedrive, Generic)
+├── models.py             # Data models (Pydantic)
+├── config.py             # Configuration management
+└── requirements.txt      # Python dependencies
 
-text
+
+
 
 ---
 
