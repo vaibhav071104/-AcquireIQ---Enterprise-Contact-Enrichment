@@ -1,6 +1,3 @@
-
-
-```markdown
 # 🎯 AcquireIQ - Enterprise Contact Enrichment
 
 **Built for Caprae Capital's AI-Readiness Challenge**
@@ -81,25 +78,26 @@ Click “Sample Data (Demo)” → “Start Enrichment” to see it in action.
 
 ### Installation
 
-```
-# 1) Clone
+1) Clone
 git clone https://github.com/vaibhav071104/-AcquireIQ---Enterprise-Contact-Enrichment.git
 cd acquireiq
 
-# 2) Create virtual env
+2) Create virtual env
 python -m venv venv
-# Activate:
-#   macOS/Linux:
-source venv/bin/activate
-#   Windows:
-# venv\Scripts\activate
 
-# 3) Install dependencies
+Activate:
+macOS/Linux:
+source venv/bin/activate
+
+Windows:
+venv\Scripts\activate
+3) Install dependencies
 pip install -r requirements.txt
 
-# 4) Run
+4) Run
 streamlit run ui.py
-```
+
+text
 
 Open http://localhost:8501
 
@@ -138,17 +136,17 @@ https://d2dguy2fhewzytzpzihuri.streamlit.app/
 
 ## 📁 Project Structure
 
-```
 acquireiq/
-├── ui.py                  # Streamlit dashboard (main app)
-├── scraper.py             # Lead generation (sample, domain, bulk, CSV)
-├── enrichment.py          # Email verification & quality scoring
-├── validator.py           # Local email validation (fallback)
-├── crm_integration.py     # CRM export (Salesforce, HubSpot, Pipedrive, Generic)
-├── models.py              # Data models (Pydantic)
-├── config.py              # Configuration management
-└── requirements.txt       # Dependencies
-```
+├── ui.py # Streamlit dashboard (main app)
+├── scraper.py # Lead generation (sample, domain, bulk, CSV)
+├── enrichment.py # Email verification & quality scoring
+├── validator.py # Local email validation (fallback)
+├── crm_integration.py # CRM export (Salesforce, HubSpot, Pipedrive, Generic)
+├── models.py # Data models (Pydantic)
+├── config.py # Configuration management
+└── requirements.txt # Dependencies
+
+text
 
 ---
 
@@ -261,4 +259,3 @@ Open a GitHub issue or email: singhhvaibhav30@gmail.com
 **⚡ Built in 5 hours | 🎯 Quality-First | 🚀 Production-Ready**
 
 Try it now: https://d2dguy2fhewzytzpzihuri.streamlit.app/
-```
