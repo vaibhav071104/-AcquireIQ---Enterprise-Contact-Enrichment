@@ -1,33 +1,34 @@
 """
 Configuration management for AcquireIQ
 """
-from pydantic_settings import BaseSettings
+import os
 from typing import Optional
 
 
-class Settings(BaseSettings):
+class Settings:
     """Application settings"""
     
-    # API Keys
-    hunter_api_key: Optional[str] = None
-    
-    # Database
-    database_url: str = "sqlite:///acquireiq.db"
-    
-    # App Settings
-    app_name: str = "AcquireIQ"
-    app_version: str = "1.0.0"
-    debug: bool = False
-    
-    # Hunter.io API endpoints
-    hunter_base_url: str = "https://api.hunter.io/v2"
-    
-    # Rate limiting
-    max_requests_per_minute: int = 50
-    
-    class Config:
-        env_file = ".env"
-        case_sensitive = False
+    def __init__(self):
+        # API Keys - pre-filled with your Hunter.io key
+        self.hunter_api_key: Optional[str] = os.getenv(
+            "HUNTER_API_KEY", 
+            "00d17a35bfef2423200768ddecf7d27fc9dc9ca6"
+        )
+        
+        # Database
+        self.database_url: str = os.getenv("DATABASE_URL", "sqlite:///acquireiq.db")
+        
+        # App Settings
+        self.app_name: str = "AcquireIQ"
+        self.app_version: str = "1.0.0"
+        self.debug: bool = os.getenv("DEBUG", "False").lower() == "true"
+        
+        # Hunter.io API endpoints
+        self.hunter_base_url: str = "https://api.hunter.io/v2"
+        
+        # Rate limiting
+        self.max_requests_per_minute: int = int(os.getenv("MAX_REQUESTS_PER_MINUTE", "50"))
 
 
+# Global settings instance
 settings = Settings()
