@@ -14,7 +14,7 @@ https://d2dguy2fhewzytzpzihuri.streamlit.app/
 
 Click “Sample Data (Demo)” → “Start Enrichment” to see it in action.
 
-![AcquireIQ Dashboard](screenshots/Screenshot 2025-10-03 110050.png)
+
 
 ---
 
