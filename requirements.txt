@@ -1,31 +1,8 @@
-# Core Framework
-streamlit==1.30.0
-fastapi==0.104.1
-uvicorn==0.24.0
-pydantic==2.5.0
-pydantic-settings==2.1.0
-
-# Data Processing
-pandas==2.1.3
-numpy==1.26.2
-
-# Web Scraping
-selenium==4.15.2
-beautifulsoup4==4.12.2
+streamlit==1.31.0
+pandas==2.2.1
+plotly==5.18.0
 requests==2.31.0
-httpx==0.25.1
-
-# Email Validation
+pydantic==2.6.0
 email-validator==2.1.0
 dnspython==2.4.2
-
-# Database
-sqlalchemy==2.0.23
-
-# Utilities
 python-dotenv==1.0.0
-phonenumbers==8.13.26
-tqdm==4.66.1
-
-# Visualization
-plotly==5.18.0
