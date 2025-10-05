@@ -1,4 +1,6 @@
-[![Watch Demo](https://drive.google.com/file/d/102tZIUmSFmJXbuz8tPLNbABOI0aAsGS4/view?usp=sharing)
+## 🎥 Demo Video
+
+Watch the assignment demo [on Google Drive](https://drive.google.com/file/d/102tZIUmSFmJXbuz8tPLNbABOI0aAsGS4/view?usp=sharing).
 
 # 🎯 AcquireIQ - Enterprise Contact Enrichment
 
