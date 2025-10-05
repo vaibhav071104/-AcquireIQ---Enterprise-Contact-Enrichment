@@ -222,7 +222,7 @@ acquireiq/
 
 ---
 
-## 📹 Demo Video (Add Link)
+## 📹 Demo Video https://drive.google.com/file/d/102tZIUmSFmJXbuz8tPLNbABOI0aAsGS4/view?usp=sharing
 
 - 2-minute walkthrough demonstrating:
   - Problem → Solution
